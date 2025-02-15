@@ -1,0 +1,99 @@
+.home-background{
+	background-image: url("home-img.jpeg");
+}
+
+.navbar-background{
+	background-color: #e3f2fd;
+}
+
+.table-wrapper{
+	margin-top: 3%;
+}
+
+.form-wrapper{
+	width: 1000px; 
+	margin-left: 16%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.w-100{
+	width: 100%;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.p-5{
+	padding:5px;
+}
+
+.mt-5{
+	margin-top: 10px;
+}
+
+.form-control{
+	padding: 10px;
+	margin: 5px;
+}
+
+.col-form-label{
+	margin: 5px;
+}
+
+.btn-danger{
+	background-color: #FF3333;
+	color: white;
+}
+
+.f-bold{
+	font-weight: bold;
+}
+
+.f-20{
+	font-size: 20px;
+}
+
+#reservation-table{
+	font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#reservation-table td, #reservation-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#reservation-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#reservation-table tr:hover {background-color: #ddd;}
+
+#reservation-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}

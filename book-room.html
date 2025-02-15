@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel Reservation System</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <ul class="w-100">
+      <li class="f-20 f-bold"><a href="./home.html">Hotel Management</a></li>
+      <li><a href="./home.html">Home</a></li>
+      <li><a class="active" href="./book-room.html">Book Room</a></li>
+      <li><a href="./reservations.html">Reservations</a></li>
+    </ul>
+
+      <div class="form-wrapper mt-5 p-5 box-shadow" style="margin-left: 16%;">
+        <h1 class="text-center">Book Room</h1>
+        <form>
+          <label for="hotel-name" class="col-sm-2 col-form-label f-bold">Select Room Type</label>
+            <select class="form-control w-100" id="hotel-name" required>
+              <option value="">Select Room</option>
+              <option value="1">Standard Room</option>
+              <option value="2">Deluxe Room</option>
+              <option value="3">Double Room</option>
+              <option value="4">Triple Room</option>
+              <option value="5">Quad Sharing</option>
+            </select>
+
+            <label for="guest-name" class="col-sm-2 col-form-label f-bold">Guest Name</label>
+            <input type="text" class="form-control w-100" id="guest-name" placeholder="Enter Guest Name" required>
+
+            <label for="rooms" class="col-sm-2 col-form-label f-bold">Number Of Pax</label>
+            <input type="number" class="form-control w-100" id="rooms" placeholder="Enter Number Of Guests" required>
+
+            <label for="checkin" class="col-sm-2 col-form-label f-bold">Check-In</label>
+            <input type="date" class="form-control w-100" id="checkin" placeholder="Select Check-in Date" required>
+
+            <label for="checkout" class="col-sm-2 col-form-label f-bold">Check-Out</label>
+            <input type="date" class="form-control w-100" id="checkout" placeholder="Select Check-out Date" required>
+            <button type="submit" class="btn-danger w-100 f-bold form-control">Book Room</button>
+        </form>
+      </div>
+  </body>
+</html>
